@@ -1,0 +1,13 @@
+START server
+    - cd server/
+    - npm install
+    - ubah credential database sesuai dengan credential database anda di file /server/config/index.js
+    - cd config/
+    - node setup.js
+    - node seedings.js
+    - cd ..
+    - node index.js
+START client
+    - cd client/
+    - npm install
+    - npm start
