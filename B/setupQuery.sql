@@ -27,10 +27,10 @@ CREATE TABLE Transactions (
   ON DELETE CASCADE
 );
 
-INSERT INTO Users (firstname, lastname, email) values
-('arrizal', 'kurniawan', 'arrizalrahmat@gmail.com'),
-('bibie', 'julius', 'bijul@gmail.com'),
-('naruto', 'kobayashi', 'naba@gmail.com');
+INSERT INTO Users (name, address, phone) values
+('arrizal', 'Jl. Poltangan bla bla', '082112692269'),
+('bibie', 'Jl. kucing garong', '08128732648723'),
+('naruto', 'Jl. Konoha', '0856238742');
 
 INSERT INTO Products (name, price, description) values
 ('lontong', 10000, 'nasi dibungkus daun pisang'),
