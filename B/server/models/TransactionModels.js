@@ -69,6 +69,7 @@ class TransactionModels {
             for (let i = 0; i < result.length; i++) {
               if (result[i].id === el.id) {
                 result[i].quantity++;
+
                 result[i].total += el.price;
                 break;
               } else if (i === result.length - 1) {
